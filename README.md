@@ -43,6 +43,8 @@ The linuxptp software can use the clock source from a NIC.
 
 However, not all network interfaces provide the time from their clock
 
+The NIC needs to support `HWTSTAMP_TX_ONESTEP_SYNC`
+
 The linux command `ethtool` can be used to determine if a NIC provides the time.
 
 ### ethtool
